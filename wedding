@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Anirudh & Likitha Wedding Invitation</title>
+  <link rel="stylesheet" href="style.css"> <!-- External CSS (if linked) -->
+</head>
+<body>
+
+  <!-- Background Audio Player -->
+  <audio loop preload="none">
+    <source src="assets/pelli-pusthakam.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Opening Splash Screen / Cover -->
+  <section aria-label="Open invitation" role="button" class="splash-screen">
+    <div class="monogram">
+      <div>S <span>&amp;</span> M</div>
+      <p>Tap to open</p>
+    </div>
+  </section>
+
+  <!-- Main Invitation Content -->
+  <main hidden>
+    <!-- Header Section -->
+    <section class="hero">
+      <p>|| Shree Ganeshaya Namaha ||</p>
+      <div class="symbol">ॐ</div>
+      <p>Together with their families</p>
+      <h1><span>Dr. Sahithi</span><small>with</small><span>Mani Krishna</span></h1>
+      <p>M.B.B.S. &nbsp; | &nbsp; MS (Australia), Software Engineer</p>
+      
+      <div class="couple-img">
+        <img alt="Bride and groom in traditional Telugu wedding attire" src="assets/couple.png">
+      </div>
+      
+      <p>We cordially invite you with family and friends to celebrate the auspicious occasion of their wedding.</p>
+      <div class="date-badge">Sunday, 16 August 2026 · 10:45 AM</div>
+      <p>Hastha Nakshatram · Thula Lagnam</p>
+    </section>
+
+    <!-- Venue Details -->
+    <section class="venue">
+      <article>
+        <span>Wedding Venue</span>
+        <strong>Nandana A/C Gardens, Mahabubabad</strong>
+        <small>Wedding ceremony and lunch</small>
+      </article>
+      <article>
+        <span>Wedding Lunch</span>
+        <strong>12:30 PM</strong>
+        <small>Lunch follows the wedding ceremony</small>
+      </article>
+    </section>
+
+    <!-- Festivities / Events Section -->
+    <section class="festivities">
+      <p>Save the dates</p>
+      <h2>The Festivities</h2>
+      
+      <article class="event-card">
+        <span>Celebration</span>
+        <img alt="Haldi ceremony illustration" src="assets/haldi.png">
+        <p>Friday, 14 August 2026</p>
+        <h3>Haldi Ceremony</h3>
+        <p>A joyful morning of turmeric, blessings and laughter.</p>
+        <div>
+          <p><span>Time</span><strong>10:30 AM</strong></p>
+          <p><span>Venue</span><strong>Bride's House</strong></p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Countdown Timer Section -->
+    <section class="countdown">
+      <p>Counting down to forever</p>
+      <h2>Getting Married In</h2>
+      <div class="timer-grid">
+        <div><strong>00</strong><span>Days</span></div>
+        <div><strong>00</strong><span>Hours</span></div>
+        <div><strong>00</strong><span>Minutes</span></div>
+        <div><strong>00</strong><span>Seconds</span></div>
+      </div>
+    </section>
+
+    <!-- Footer / RSVP -->
+    <section class="rsvp">
+      <h2>Kindly RSVP</h2>
+      <div class="actions">
+        <a href="tel:+91XXXXXXXXXX">Call family</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Nandana+A%2FC+Gardens%2C+Mahabubabad" target="_blank">Wedding location</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
